@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D73C47AF1C1C993A00E1CB2A /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C479F1C1C993A00E1CB2A /* angry_birds_cake.jpg */; };
+		D73C47B01C1C993A00E1CB2A /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47A01C1C993A00E1CB2A /* creme_brelee.jpg */; };
+		D73C47B11C1C993A00E1CB2A /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47A11C1C993A00E1CB2A /* egg_benedict.jpg */; };
+		D73C47B21C1C993A00E1CB2A /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47A21C1C993A00E1CB2A /* full_breakfast.jpg */; };
+		D73C47B31C1C993A00E1CB2A /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47A31C1C993A00E1CB2A /* green_tea.jpg */; };
+		D73C47B41C1C993A00E1CB2A /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47A41C1C993A00E1CB2A /* ham_and_cheese_panini.jpg */; };
+		D73C47B51C1C993A00E1CB2A /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47A51C1C993A00E1CB2A /* ham_and_egg_sandwich.jpg */; };
+		D73C47B61C1C993A00E1CB2A /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47A61C1C993A00E1CB2A /* hamburger.jpg */; };
+		D73C47B71C1C993A00E1CB2A /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47A71C1C993A00E1CB2A /* instant_noodle_with_egg.jpg */; };
+		D73C47B81C1C993A00E1CB2A /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47A81C1C993A00E1CB2A /* japanese_noodle_with_pork.jpg */; };
+		D73C47B91C1C993A00E1CB2A /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47A91C1C993A00E1CB2A /* mushroom_risotto.jpg */; };
+		D73C47BA1C1C993A00E1CB2A /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47AA1C1C993A00E1CB2A /* noodle_with_bbq_pork.jpg */; };
+		D73C47BB1C1C993A00E1CB2A /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47AB1C1C993A00E1CB2A /* starbucks_coffee.jpg */; };
+		D73C47BC1C1C993A00E1CB2A /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47AC1C1C993A00E1CB2A /* thai_shrimp_cake.jpg */; };
+		D73C47BD1C1C993A00E1CB2A /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47AD1C1C993A00E1CB2A /* vegetable_curry.jpg */; };
+		D73C47BE1C1C993A00E1CB2A /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D73C47AE1C1C993A00E1CB2A /* white_chocolate_donut.jpg */; };
+		D73C47C01C1C9ADD00E1CB2A /* SimpleTablecell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73C47BF1C1C9ADD00E1CB2A /* SimpleTablecell.xib */; };
+		D73C47C61C1C9D4D00E1CB2A /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D73C47C51C1C9D4D00E1CB2A /* SimpleTableCell.m */; };
+		D74EA8901C1C956300ADBBD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EA88F1C1C956300ADBBD2 /* main.m */; };
+		D74EA8931C1C956300ADBBD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EA8921C1C956300ADBBD2 /* AppDelegate.m */; };
+		D74EA8961C1C956300ADBBD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EA8951C1C956300ADBBD2 /* ViewController.m */; };
+		D74EA8991C1C956300ADBBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74EA8971C1C956300ADBBD2 /* Main.storyboard */; };
+		D74EA89B1C1C956300ADBBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74EA89A1C1C956300ADBBD2 /* Assets.xcassets */; };
+		D74EA89E1C1C956300ADBBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74EA89C1C1C956300ADBBD2 /* LaunchScreen.storyboard */; };
+		D74EA8A91C1C956300ADBBD2 /* SimpleTableOOPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EA8A81C1C956300ADBBD2 /* SimpleTableOOPTests.m */; };
+		D74EA8B41C1C956300ADBBD2 /* SimpleTableOOPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74EA8B31C1C956300ADBBD2 /* SimpleTableOOPUITests.m */; };
+		D77714B81C1CC0F4000C7CCD /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77714B71C1CC0F4000C7CCD /* RecipeDetailViewController.m */; };
+		D79A73E31C24A620003E2B49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73D91C24A620003E2B49 /* AudioToolbox.framework */; };
+		D79A73E41C24A620003E2B49 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73DA1C24A620003E2B49 /* CFNetwork.framework */; };
+		D79A73E51C24A620003E2B49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73DB1C24A620003E2B49 /* CoreGraphics.framework */; };
+		D79A73E61C24A620003E2B49 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73DC1C24A620003E2B49 /* CoreLocation.framework */; };
+		D79A73E71C24A620003E2B49 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73DD1C24A620003E2B49 /* libz.1.1.3.tbd */; };
+		D79A73E81C24A620003E2B49 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73DE1C24A620003E2B49 /* MobileCoreServices.framework */; };
+		D79A73E91C24A620003E2B49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73DF1C24A620003E2B49 /* QuartzCore.framework */; };
+		D79A73EA1C24A620003E2B49 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73E01C24A620003E2B49 /* Security.framework */; };
+		D79A73EB1C24A620003E2B49 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73E11C24A620003E2B49 /* StoreKit.framework */; };
+		D79A73EC1C24A620003E2B49 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73E21C24A620003E2B49 /* SystemConfiguration.framework */; };
+		D79A73F51C24AA5D003E2B49 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73EF1C24AA5D003E2B49 /* Bolts.framework */; };
+		D79A73FC1C24B00C003E2B49 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79A73FB1C24B00C003E2B49 /* Parse.framework */; };
+		D7E4524F1C1CB11500B7CEF5 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E4524E1C1CB11500B7CEF5 /* Recipe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D74EA8A51C1C956300ADBBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74EA8831C1C956300ADBBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74EA88A1C1C956300ADBBD2;
+			remoteInfo = SimpleTableOOP;
+		};
+		D74EA8B01C1C956300ADBBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74EA8831C1C956300ADBBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74EA88A1C1C956300ADBBD2;
+			remoteInfo = SimpleTableOOP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D73C479F1C1C993A00E1CB2A /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = angry_birds_cake.jpg; path = image_pack/angry_birds_cake.jpg; sourceTree = "<group>"; };
+		D73C47A01C1C993A00E1CB2A /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = creme_brelee.jpg; path = image_pack/creme_brelee.jpg; sourceTree = "<group>"; };
+		D73C47A11C1C993A00E1CB2A /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = egg_benedict.jpg; path = image_pack/egg_benedict.jpg; sourceTree = "<group>"; };
+		D73C47A21C1C993A00E1CB2A /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = full_breakfast.jpg; path = image_pack/full_breakfast.jpg; sourceTree = "<group>"; };
+		D73C47A31C1C993A00E1CB2A /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = green_tea.jpg; path = image_pack/green_tea.jpg; sourceTree = "<group>"; };
+		D73C47A41C1C993A00E1CB2A /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ham_and_cheese_panini.jpg; path = image_pack/ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		D73C47A51C1C993A00E1CB2A /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ham_and_egg_sandwich.jpg; path = image_pack/ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		D73C47A61C1C993A00E1CB2A /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hamburger.jpg; path = image_pack/hamburger.jpg; sourceTree = "<group>"; };
+		D73C47A71C1C993A00E1CB2A /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = instant_noodle_with_egg.jpg; path = image_pack/instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		D73C47A81C1C993A00E1CB2A /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = japanese_noodle_with_pork.jpg; path = image_pack/japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		D73C47A91C1C993A00E1CB2A /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mushroom_risotto.jpg; path = image_pack/mushroom_risotto.jpg; sourceTree = "<group>"; };
+		D73C47AA1C1C993A00E1CB2A /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noodle_with_bbq_pork.jpg; path = image_pack/noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		D73C47AB1C1C993A00E1CB2A /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = starbucks_coffee.jpg; path = image_pack/starbucks_coffee.jpg; sourceTree = "<group>"; };
+		D73C47AC1C1C993A00E1CB2A /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thai_shrimp_cake.jpg; path = image_pack/thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		D73C47AD1C1C993A00E1CB2A /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vegetable_curry.jpg; path = image_pack/vegetable_curry.jpg; sourceTree = "<group>"; };
+		D73C47AE1C1C993A00E1CB2A /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = white_chocolate_donut.jpg; path = image_pack/white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		D73C47BF1C1C9ADD00E1CB2A /* SimpleTablecell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTablecell.xib; sourceTree = "<group>"; };
+		D73C47C41C1C9D4D00E1CB2A /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		D73C47C51C1C9D4D00E1CB2A /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		D74EA88B1C1C956300ADBBD2 /* SimpleTableOOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTableOOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74EA88F1C1C956300ADBBD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D74EA8911C1C956300ADBBD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D74EA8921C1C956300ADBBD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D74EA8941C1C956300ADBBD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D74EA8951C1C956300ADBBD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D74EA8981C1C956300ADBBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D74EA89A1C1C956300ADBBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D74EA89D1C1C956300ADBBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D74EA89F1C1C956300ADBBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74EA8A41C1C956300ADBBD2 /* SimpleTableOOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableOOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74EA8A81C1C956300ADBBD2 /* SimpleTableOOPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableOOPTests.m; sourceTree = "<group>"; };
+		D74EA8AA1C1C956300ADBBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74EA8AF1C1C956300ADBBD2 /* SimpleTableOOPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableOOPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74EA8B31C1C956300ADBBD2 /* SimpleTableOOPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableOOPUITests.m; sourceTree = "<group>"; };
+		D74EA8B51C1C956300ADBBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77714B61C1CC0F4000C7CCD /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		D77714B71C1CC0F4000C7CCD /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		D79A73D91C24A620003E2B49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D79A73DA1C24A620003E2B49 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D79A73DB1C24A620003E2B49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D79A73DC1C24A620003E2B49 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D79A73DD1C24A620003E2B49 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		D79A73DE1C24A620003E2B49 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D79A73DF1C24A620003E2B49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D79A73E01C24A620003E2B49 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D79A73E11C24A620003E2B49 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D79A73E21C24A620003E2B49 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D79A73EF1C24AA5D003E2B49 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D79A73FB1C24B00C003E2B49 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		D7E4524D1C1CB11500B7CEF5 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		D7E4524E1C1CB11500B7CEF5 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74EA8881C1C956300ADBBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79A73E31C24A620003E2B49 /* AudioToolbox.framework in Frameworks */,
+				D79A73E41C24A620003E2B49 /* CFNetwork.framework in Frameworks */,
+				D79A73E51C24A620003E2B49 /* CoreGraphics.framework in Frameworks */,
+				D79A73E61C24A620003E2B49 /* CoreLocation.framework in Frameworks */,
+				D79A73E71C24A620003E2B49 /* libz.1.1.3.tbd in Frameworks */,
+				D79A73E81C24A620003E2B49 /* MobileCoreServices.framework in Frameworks */,
+				D79A73E91C24A620003E2B49 /* QuartzCore.framework in Frameworks */,
+				D79A73EA1C24A620003E2B49 /* Security.framework in Frameworks */,
+				D79A73F51C24AA5D003E2B49 /* Bolts.framework in Frameworks */,
+				D79A73EB1C24A620003E2B49 /* StoreKit.framework in Frameworks */,
+				D79A73FC1C24B00C003E2B49 /* Parse.framework in Frameworks */,
+				D79A73EC1C24A620003E2B49 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74EA8A11C1C956300ADBBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74EA8AC1C1C956300ADBBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D73C479E1C1C98E500E1CB2A /* ImagePack */ = {
+			isa = PBXGroup;
+			children = (
+				D73C479F1C1C993A00E1CB2A /* angry_birds_cake.jpg */,
+				D73C47A01C1C993A00E1CB2A /* creme_brelee.jpg */,
+				D73C47A11C1C993A00E1CB2A /* egg_benedict.jpg */,
+				D73C47A21C1C993A00E1CB2A /* full_breakfast.jpg */,
+				D73C47A31C1C993A00E1CB2A /* green_tea.jpg */,
+				D73C47A41C1C993A00E1CB2A /* ham_and_cheese_panini.jpg */,
+				D73C47A51C1C993A00E1CB2A /* ham_and_egg_sandwich.jpg */,
+				D73C47A61C1C993A00E1CB2A /* hamburger.jpg */,
+				D73C47A71C1C993A00E1CB2A /* instant_noodle_with_egg.jpg */,
+				D73C47A81C1C993A00E1CB2A /* japanese_noodle_with_pork.jpg */,
+				D73C47A91C1C993A00E1CB2A /* mushroom_risotto.jpg */,
+				D73C47AA1C1C993A00E1CB2A /* noodle_with_bbq_pork.jpg */,
+				D73C47AB1C1C993A00E1CB2A /* starbucks_coffee.jpg */,
+				D73C47AC1C1C993A00E1CB2A /* thai_shrimp_cake.jpg */,
+				D73C47AD1C1C993A00E1CB2A /* vegetable_curry.jpg */,
+				D73C47AE1C1C993A00E1CB2A /* white_chocolate_donut.jpg */,
+			);
+			name = ImagePack;
+			sourceTree = "<group>";
+		};
+		D74EA8821C1C956300ADBBD2 = {
+			isa = PBXGroup;
+			children = (
+				D79A73D61C24A514003E2B49 /* Frameworks */,
+				D73C479E1C1C98E500E1CB2A /* ImagePack */,
+				D74EA88D1C1C956300ADBBD2 /* SimpleTableOOP */,
+				D74EA8A71C1C956300ADBBD2 /* SimpleTableOOPTests */,
+				D74EA8B21C1C956300ADBBD2 /* SimpleTableOOPUITests */,
+				D74EA88C1C1C956300ADBBD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D74EA88C1C1C956300ADBBD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74EA88B1C1C956300ADBBD2 /* SimpleTableOOP.app */,
+				D74EA8A41C1C956300ADBBD2 /* SimpleTableOOPTests.xctest */,
+				D74EA8AF1C1C956300ADBBD2 /* SimpleTableOOPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74EA88D1C1C956300ADBBD2 /* SimpleTableOOP */ = {
+			isa = PBXGroup;
+			children = (
+				D74EA8911C1C956300ADBBD2 /* AppDelegate.h */,
+				D74EA8921C1C956300ADBBD2 /* AppDelegate.m */,
+				D74EA8941C1C956300ADBBD2 /* ViewController.h */,
+				D74EA8951C1C956300ADBBD2 /* ViewController.m */,
+				D74EA8971C1C956300ADBBD2 /* Main.storyboard */,
+				D74EA89A1C1C956300ADBBD2 /* Assets.xcassets */,
+				D74EA89C1C1C956300ADBBD2 /* LaunchScreen.storyboard */,
+				D74EA89F1C1C956300ADBBD2 /* Info.plist */,
+				D74EA88E1C1C956300ADBBD2 /* Supporting Files */,
+				D73C47BF1C1C9ADD00E1CB2A /* SimpleTablecell.xib */,
+				D73C47C41C1C9D4D00E1CB2A /* SimpleTableCell.h */,
+				D73C47C51C1C9D4D00E1CB2A /* SimpleTableCell.m */,
+				D7E4524D1C1CB11500B7CEF5 /* Recipe.h */,
+				D7E4524E1C1CB11500B7CEF5 /* Recipe.m */,
+				D77714B61C1CC0F4000C7CCD /* RecipeDetailViewController.h */,
+				D77714B71C1CC0F4000C7CCD /* RecipeDetailViewController.m */,
+			);
+			path = SimpleTableOOP;
+			sourceTree = "<group>";
+		};
+		D74EA88E1C1C956300ADBBD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D74EA88F1C1C956300ADBBD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D74EA8A71C1C956300ADBBD2 /* SimpleTableOOPTests */ = {
+			isa = PBXGroup;
+			children = (
+				D74EA8A81C1C956300ADBBD2 /* SimpleTableOOPTests.m */,
+				D74EA8AA1C1C956300ADBBD2 /* Info.plist */,
+			);
+			path = SimpleTableOOPTests;
+			sourceTree = "<group>";
+		};
+		D74EA8B21C1C956300ADBBD2 /* SimpleTableOOPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D74EA8B31C1C956300ADBBD2 /* SimpleTableOOPUITests.m */,
+				D74EA8B51C1C956300ADBBD2 /* Info.plist */,
+			);
+			path = SimpleTableOOPUITests;
+			sourceTree = "<group>";
+		};
+		D79A73D61C24A514003E2B49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D79A73FB1C24B00C003E2B49 /* Parse.framework */,
+				D79A73EF1C24AA5D003E2B49 /* Bolts.framework */,
+				D79A73D91C24A620003E2B49 /* AudioToolbox.framework */,
+				D79A73DA1C24A620003E2B49 /* CFNetwork.framework */,
+				D79A73DB1C24A620003E2B49 /* CoreGraphics.framework */,
+				D79A73DC1C24A620003E2B49 /* CoreLocation.framework */,
+				D79A73DD1C24A620003E2B49 /* libz.1.1.3.tbd */,
+				D79A73DE1C24A620003E2B49 /* MobileCoreServices.framework */,
+				D79A73DF1C24A620003E2B49 /* QuartzCore.framework */,
+				D79A73E01C24A620003E2B49 /* Security.framework */,
+				D79A73E11C24A620003E2B49 /* StoreKit.framework */,
+				D79A73E21C24A620003E2B49 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74EA88A1C1C956300ADBBD2 /* SimpleTableOOP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74EA8B81C1C956300ADBBD2 /* Build configuration list for PBXNativeTarget "SimpleTableOOP" */;
+			buildPhases = (
+				D74EA8871C1C956300ADBBD2 /* Sources */,
+				D74EA8881C1C956300ADBBD2 /* Frameworks */,
+				D74EA8891C1C956300ADBBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTableOOP;
+			productName = SimpleTableOOP;
+			productReference = D74EA88B1C1C956300ADBBD2 /* SimpleTableOOP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D74EA8A31C1C956300ADBBD2 /* SimpleTableOOPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74EA8BB1C1C956300ADBBD2 /* Build configuration list for PBXNativeTarget "SimpleTableOOPTests" */;
+			buildPhases = (
+				D74EA8A01C1C956300ADBBD2 /* Sources */,
+				D74EA8A11C1C956300ADBBD2 /* Frameworks */,
+				D74EA8A21C1C956300ADBBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74EA8A61C1C956300ADBBD2 /* PBXTargetDependency */,
+			);
+			name = SimpleTableOOPTests;
+			productName = SimpleTableOOPTests;
+			productReference = D74EA8A41C1C956300ADBBD2 /* SimpleTableOOPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D74EA8AE1C1C956300ADBBD2 /* SimpleTableOOPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74EA8BE1C1C956300ADBBD2 /* Build configuration list for PBXNativeTarget "SimpleTableOOPUITests" */;
+			buildPhases = (
+				D74EA8AB1C1C956300ADBBD2 /* Sources */,
+				D74EA8AC1C1C956300ADBBD2 /* Frameworks */,
+				D74EA8AD1C1C956300ADBBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74EA8B11C1C956300ADBBD2 /* PBXTargetDependency */,
+			);
+			name = SimpleTableOOPUITests;
+			productName = SimpleTableOOPUITests;
+			productReference = D74EA8AF1C1C956300ADBBD2 /* SimpleTableOOPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74EA8831C1C956300ADBBD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = dev;
+				TargetAttributes = {
+					D74EA88A1C1C956300ADBBD2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D74EA8A31C1C956300ADBBD2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D74EA88A1C1C956300ADBBD2;
+					};
+					D74EA8AE1C1C956300ADBBD2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D74EA88A1C1C956300ADBBD2;
+					};
+				};
+			};
+			buildConfigurationList = D74EA8861C1C956300ADBBD2 /* Build configuration list for PBXProject "SimpleTableOOP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D74EA8821C1C956300ADBBD2;
+			productRefGroup = D74EA88C1C1C956300ADBBD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74EA88A1C1C956300ADBBD2 /* SimpleTableOOP */,
+				D74EA8A31C1C956300ADBBD2 /* SimpleTableOOPTests */,
+				D74EA8AE1C1C956300ADBBD2 /* SimpleTableOOPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D74EA8891C1C956300ADBBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73C47B21C1C993A00E1CB2A /* full_breakfast.jpg in Resources */,
+				D74EA89E1C1C956300ADBBD2 /* LaunchScreen.storyboard in Resources */,
+				D73C47B01C1C993A00E1CB2A /* creme_brelee.jpg in Resources */,
+				D73C47BD1C1C993A00E1CB2A /* vegetable_curry.jpg in Resources */,
+				D73C47BC1C1C993A00E1CB2A /* thai_shrimp_cake.jpg in Resources */,
+				D74EA89B1C1C956300ADBBD2 /* Assets.xcassets in Resources */,
+				D73C47BE1C1C993A00E1CB2A /* white_chocolate_donut.jpg in Resources */,
+				D73C47B71C1C993A00E1CB2A /* instant_noodle_with_egg.jpg in Resources */,
+				D73C47B61C1C993A00E1CB2A /* hamburger.jpg in Resources */,
+				D73C47BA1C1C993A00E1CB2A /* noodle_with_bbq_pork.jpg in Resources */,
+				D73C47AF1C1C993A00E1CB2A /* angry_birds_cake.jpg in Resources */,
+				D74EA8991C1C956300ADBBD2 /* Main.storyboard in Resources */,
+				D73C47B41C1C993A00E1CB2A /* ham_and_cheese_panini.jpg in Resources */,
+				D73C47B31C1C993A00E1CB2A /* green_tea.jpg in Resources */,
+				D73C47C01C1C9ADD00E1CB2A /* SimpleTablecell.xib in Resources */,
+				D73C47B91C1C993A00E1CB2A /* mushroom_risotto.jpg in Resources */,
+				D73C47BB1C1C993A00E1CB2A /* starbucks_coffee.jpg in Resources */,
+				D73C47B11C1C993A00E1CB2A /* egg_benedict.jpg in Resources */,
+				D73C47B51C1C993A00E1CB2A /* ham_and_egg_sandwich.jpg in Resources */,
+				D73C47B81C1C993A00E1CB2A /* japanese_noodle_with_pork.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74EA8A21C1C956300ADBBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74EA8AD1C1C956300ADBBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74EA8871C1C956300ADBBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74EA8961C1C956300ADBBD2 /* ViewController.m in Sources */,
+				D77714B81C1CC0F4000C7CCD /* RecipeDetailViewController.m in Sources */,
+				D7E4524F1C1CB11500B7CEF5 /* Recipe.m in Sources */,
+				D74EA8931C1C956300ADBBD2 /* AppDelegate.m in Sources */,
+				D73C47C61C1C9D4D00E1CB2A /* SimpleTableCell.m in Sources */,
+				D74EA8901C1C956300ADBBD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74EA8A01C1C956300ADBBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74EA8A91C1C956300ADBBD2 /* SimpleTableOOPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74EA8AB1C1C956300ADBBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74EA8B41C1C956300ADBBD2 /* SimpleTableOOPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D74EA8A61C1C956300ADBBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74EA88A1C1C956300ADBBD2 /* SimpleTableOOP */;
+			targetProxy = D74EA8A51C1C956300ADBBD2 /* PBXContainerItemProxy */;
+		};
+		D74EA8B11C1C956300ADBBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74EA88A1C1C956300ADBBD2 /* SimpleTableOOP */;
+			targetProxy = D74EA8B01C1C956300ADBBD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D74EA8971C1C956300ADBBD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74EA8981C1C956300ADBBD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D74EA89C1C1C956300ADBBD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74EA89D1C1C956300ADBBD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D74EA8B61C1C956300ADBBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D74EA8B71C1C956300ADBBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74EA8B91C1C956300ADBBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SimpleTableOOP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kch.SimpleTableOOP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D74EA8BA1C1C956300ADBBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SimpleTableOOP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kch.SimpleTableOOP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D74EA8BC1C1C956300ADBBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleTableOOPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kch.SimpleTableOOPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleTableOOP.app/SimpleTableOOP";
+			};
+			name = Debug;
+		};
+		D74EA8BD1C1C956300ADBBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleTableOOPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kch.SimpleTableOOPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleTableOOP.app/SimpleTableOOP";
+			};
+			name = Release;
+		};
+		D74EA8BF1C1C956300ADBBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleTableOOPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kch.SimpleTableOOPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleTableOOP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D74EA8C01C1C956300ADBBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleTableOOPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kch.SimpleTableOOPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleTableOOP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74EA8861C1C956300ADBBD2 /* Build configuration list for PBXProject "SimpleTableOOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74EA8B61C1C956300ADBBD2 /* Debug */,
+				D74EA8B71C1C956300ADBBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74EA8B81C1C956300ADBBD2 /* Build configuration list for PBXNativeTarget "SimpleTableOOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74EA8B91C1C956300ADBBD2 /* Debug */,
+				D74EA8BA1C1C956300ADBBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74EA8BB1C1C956300ADBBD2 /* Build configuration list for PBXNativeTarget "SimpleTableOOPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74EA8BC1C1C956300ADBBD2 /* Debug */,
+				D74EA8BD1C1C956300ADBBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74EA8BE1C1C956300ADBBD2 /* Build configuration list for PBXNativeTarget "SimpleTableOOPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74EA8BF1C1C956300ADBBD2 /* Debug */,
+				D74EA8C01C1C956300ADBBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74EA8831C1C956300ADBBD2 /* Project object */;
+}
